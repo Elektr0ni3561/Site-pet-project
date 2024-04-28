@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+<h1>Search</h1>
+<a href="/">Go Home</a>
+
+<form action="" method="get" class="form-example">
+    <div>
+        <label for="url">Enter URL: </label>
+        <input type="url" name="url" id="url" required />
+    </div>
+    <div>
+        <input type="checkbox" name="links" checked/><label>links</label>
+    </div>
+    <div>
+        <input type="checkbox" name="images" checked/><label>images</label>
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
+</body>
+</html>
